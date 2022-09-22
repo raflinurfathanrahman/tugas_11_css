@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    background-color: black;
+    padding: 15px 0px;
+}
+.header {
+    display: flex;
+    list-style: none;
+}
+.judul {
+    margin: 20px 15px;
+}
+header ul li {
+    padding: 0 5px;
+    
+}
+header ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+p {
+    margin: 5px 15px;
+    column-count: 4;
+    column-width: 300px;
+    height: 300px;
+    column-fill: balance;
+    column-gap: 10px;
+    column-span: all;
+    column-rule: 2px solid black;
+    text-align: justify;
+}
+footer {
+    background-color: black;
+    height: 50px;
+}
+.footer {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
